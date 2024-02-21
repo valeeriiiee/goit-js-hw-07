@@ -1,4 +1,5 @@
 import { galleryItems } from './gallery-items.js';
+var lightbox = new SimpleLightbox('.gallery-items.js');
 
 // Creating and rendering markup from the galleryItems data array and provided gallery element template. Use the ready-made code from the first task
 const gallery = document.querySelector('.gallery');
